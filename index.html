@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Imersão Dev Calculadora</title>
+    <link href="C:\Users\Avenue Code\Desktop\Learning\stylecalc.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <div id="app">
+        
+        <h2 class="page-title">CALCULADORA DE MÉDIA</h2>
+      <a href="https://alura.com.br/" target="_blank">
+      <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-conversor-de-moedas.svg" class="page-logo" alt="">
+      </a>
+        <div class="container">
+            <div class="collumn">
+                <p class="page-subtitle">
+                    Descubra qual a sua média de nota do ano letivo!
+                </p>
+              
+                <div class="form-group">
+                    <label class="input-label" for="primeiroTrimestre">Primeiro Trimestre</label>
+                    <input class="form-input" type="number" id="primeiroTrimestre" min="0" max="10" placeholder="Nota" />
+                </div>
+                <div class="form-group">
+                    <label class="input-label" for="segundoTrimestre">Segundo Trimestre</label>
+                    <input class="form-input" type="number" id="segundoTrimestre" min="0" max="10" placeholder="Nota" />
+                </div>
+                <div class="form-group">
+                    <label class="input-label" for="segundoTrimestre">Terceiro Trimestre</label>
+                    <input class="form-input" type="number" id="terceiroTrimestre" min="0" max="10" placeholder="Nota" />
+                </div>
+
+                <div class="something">
+                    <button class="button" id="submit" type="submit" value="enviar" onclick="Calcular()">Calcular</button>
+                </div>
+
+                <div class="form-group form-group--result">
+                    <label for="result">Resultado:&nbsp</label>
+                    <span id="valorMedia"></span>
+                </div>
+            </div>
+
+            <div class="collumn">
+                <img class="img" src="https://jooinn.com/images/calculator-8.png" />
+            </div>
+
+        </div>
+    </div>
+
+    <script src="C:\Users\Avenue Code\Desktop\Learning\calcjs.js"></script>
+    <a href="https://www.linkedin.com/in/mateuseds/" target="_blank">
+        <img src="https://marcas-logos.net/wp-content/uploads/2020/01/LinkedIn-s%C3%ADmbolo.jpg" alt="Calculator"
+            class="linkedin-logo">
+    </a>
+
+</body>
+
+</html>
